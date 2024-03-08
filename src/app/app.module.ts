@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './component/landing-page/landing-page.component';
 import { MobileNumberComponent } from './component/mobile-number/mobile-number.component';
 import { PopUpComponent } from './component/pop-up/pop-up.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { PopUpComponent } from './component/pop-up/pop-up.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
