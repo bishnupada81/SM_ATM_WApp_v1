@@ -33,13 +33,14 @@ export class MobileNumberComponent implements OnInit {
 
     // this.dataService.phoneNumber = this.phoneNumber?.value;
     // console.log(this.dataService.phoneNumber);
+    console.log('hi');
 
-    // this._router.navigateByUrl('/account');
-    this.dialogRef.open(PopUpComponent, {
-      width: '40%',
-      autoFocus: false,
-      restoreFocus: false,
-    })
+    this._router.navigateByUrl('/transaction-info');
+    // this.dialogRef.open(PopUpComponent, {
+    //   width: '40%',
+    //   autoFocus: false,
+    //   restoreFocus: false,
+    // })
 }
 
 }

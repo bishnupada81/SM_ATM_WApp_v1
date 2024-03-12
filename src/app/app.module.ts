@@ -9,13 +9,15 @@ import { PopUpComponent } from './component/pop-up/pop-up.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialogModule} from '@angular/material/dialog';
+import { TranctionInfoComponent } from './component/tranction-info/tranction-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
     MobileNumberComponent,
-    PopUpComponent
+    PopUpComponent,
+    TranctionInfoComponent
   ],
   imports: [
     BrowserModule,
